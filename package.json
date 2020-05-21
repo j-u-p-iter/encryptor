@@ -1,0 +1,25 @@
+{
+  "name": "@j.u.p.iter/encryptor",
+  "version": "0.0.0-semantically-released",
+  "description": "Provides api to encrypt and decrypt buffer data",
+  "keywords": [
+    "encrypt file",
+    "decrypt file"
+  ],
+  "main": "dist/lib/encryptor.cjs.js",
+  "typings": "dist/types",
+  "repository": "git@github.com:j-u-p-iter/encryptor.git",
+  "author": "Leontyev Kirill (j.u.p.iter) <pn79122821224@gmail.com> (http://j-u-p-iter.ru/)",
+  "license": "MIT",
+  "scripts": {
+    "commit": "jupiter-scripts precommit --allowJs",
+    "build": "jupiter-scripts build",
+    "start": "yarn run build --watch",
+    "lint": "jupiter-scripts lint --format codeFrame",
+    "lint:fix": "yarn run lint --fix",
+    "test": "jupiter-scripts test"
+  },
+  "devDependencies": {
+    "@j.u.p.iter/jupiter-scripts": "^1.14.1"
+  }
+}
