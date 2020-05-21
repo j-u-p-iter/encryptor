@@ -6,7 +6,7 @@
     "encrypt file",
     "decrypt file"
   ],
-  "main": "dist/lib/encryptor.cjs.js",
+  "main": "dist/lib/index.js",
   "typings": "dist/types",
   "repository": "git@github.com:j-u-p-iter/encryptor.git",
   "author": "Leontyev Kirill (j.u.p.iter) <pn79122821224@gmail.com> (http://j-u-p-iter.ru/)",
