@@ -1,6 +1,6 @@
 {
   "name": "@j.u.p.iter/encryptor",
-  "version": "0.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "Provides api to encrypt and decrypt buffer data",
   "keywords": [
     "encrypt file",
